@@ -1,0 +1,94 @@
+html, body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: -20px;
+}
+
+.content_header{
+    padding: 0 150px;
+}
+
+.hero_main_text{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero_sec_text,
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.header_logo{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+  }
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+  }
+
+.container_header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    padding-top: 16px;
+}
+
+.container_header_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+    padding-bottom: 75px;
+    gap: 16px
+}
+
+.container_header_bottom_left{
+    width: 500px;
+    flex: 1;
+
+}
+
+.image_header{
+    width: 500px;
+    flex: 1;
+}
+
+.mini_rocket{
+    width: 30px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+button.sign_header{
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    color: #E5E7EB;
+    margin-top: 16px;
+}
