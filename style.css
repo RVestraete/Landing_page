@@ -92,3 +92,79 @@ button.sign_header{
     color: #E5E7EB;
     margin-top: 16px;
 }
+
+.container_middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    margin: 100px 250px;
+}
+
+.image_middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image_middle_size{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+ .title_middle{
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 16px 0;
+} 
+
+.container_images_middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container_quote{
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container_bottom{
+    margin: 100px 200px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 150px;
+    color: #E5E7EB;
+}
+
+button.sign_bottom{
+    background-color: #3882f6;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+}
+
+.content_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
